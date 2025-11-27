@@ -14,16 +14,11 @@ import driver.DriverFactory;
 public class basePage {
     
     /*
-     * Declaración de una variable estática 'driver' de tipo WebDriver
-     * Esta variable va a ser compartida por todas las instancias de BasePage y sus subclases
+     * Declaración de una variable 'driver' de tipo WebDriver
      */
     protected  WebDriver driver;
     protected WebDriverWait wait;
 
-
-    /*
-     * Este es el constructor de BasePage que acepta un objeto WebDriver como argumento.
-     */
 
     public basePage(){
         this.driver = DriverFactory.getDriver();

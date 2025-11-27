@@ -13,7 +13,7 @@ Feature: Verificación de Formulario de Registro de Usuarios
 
         Examples: 
             | Genero | Nombre | Apellido | Correo | Contrasena | Confirmacion |
-            | Male | Juan | Perez | juan.perez50@test.com | Segura123! | Segura123! |
+            | Male | Juan | Perez | juan.perez51@test.com | Segura123! | Segura123! |
 
 
     Scenario: Fallo al registrar con correos 

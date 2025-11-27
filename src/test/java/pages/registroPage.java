@@ -12,7 +12,7 @@ public class registroPage extends basePage {
     private String textmensajeSistema ="//div[@class='result']";
     private String txtFormatoCorreo = "//span[@data-valmsg-for='Email']/span[@for='Email' and normalize-space(text())='Wrong email']";
     private String txtContraseñas = "//span[@for='ConfirmPassword' and normalize-space(text())='The password and confirmation password do not match.']";
-
+    
 
     public registroPage(){
         super();
@@ -22,7 +22,7 @@ public class registroPage extends basePage {
     public void ingresarPagina(){
         navegacionA("https://demowebshop.tricentis.com/register");
     }
-
+//<input class="text-box single-line" data-val="true" data-val-required="First name is required." id="FirstName" name="FirstName" type="text" value="">
     //Metodo para seleccionar el genero
     public void seleccionarGenero(String label){
         String genero = "//label[text()='" + label + "']";

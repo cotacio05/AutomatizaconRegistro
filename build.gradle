@@ -36,7 +36,6 @@ dependencies {
     // Dependencia para generar PDFs
     implementation 'org.apache.pdfbox:pdfbox:2.0.30'
 
-
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // This dependency is used by the application.
